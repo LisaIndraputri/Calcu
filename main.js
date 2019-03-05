@@ -65,10 +65,10 @@ function minus(){
     
 }
 function percent(){
-    if(opr==false){
+    //if(opr==false){
         exp = textview.value /100;
         textview.value = exp;
         opr = false;
-    }
+    //}
     
 }
